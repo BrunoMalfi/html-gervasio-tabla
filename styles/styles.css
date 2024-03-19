@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    .bodytext{
+        margin: 1%;
+    }
+    .tablediv{
+        margin-inline: 10%;
+    }
+
+    .linkbar {
+        display: flex;
+        flex-direction: row;
+        height: 5vh;
+        justify-content: space-around;
+        background-color:rgb(197, 221, 235) ;
+        border: 10px solid rgb(197, 221, 235);
+      }
+      .leftbarlink{
+        flex-grow: 1;
+        text-align: left;
+      }
+      .centerbarlink{
+        flex-grow: 1;
+        text-align: center;
+      }
+      .rightbarlink{
+        flex-grow: 1;
+        text-align: right;
+      }
+
+      .pictures{
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+        /* text-align: center; */
+        justify-content: center;
+        flex-wrap: wrap
+      }
+      .videos{
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+        justify-content: center;
+        flex-wrap: wrap
+      }
+      .audios{
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+        justify-content: center;
+        flex-wrap: wrap
+      }
+    table, th, td {
+        border:1px solid black;
+        border-collapse: collapse;
+        font-family: Arial,  sans-serif;
+        padding: 0.6%;
+        /* width:100%; */
+      }
+    table{
+        width:100%;
+    }
+    th{
+        background-color: rgb(232, 232, 232);
+        text-align: left;
+        /* font-weight: 900; */
+    }
+    figcaption{
+        text-align: center;
+      }
+    figure{
+        margin: 0.3%;
+    }
+    h2{
+        text-align: center;
+    }
